@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcel Szeluga - Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div id="home">
+            <div class="profile_name">
+                Marcel Szeluga
+                <div class="contact_info">
+                    <img src="html_finalprojimages/envelope.png" alt="Email Icon">
+                    marcel.szeluga05@gmail.com
+                </div>
+                <div class="contact_info">
+                    <img src="html_finalprojimages/phone.png" alt="Phone Icon">
+                    +13456764598
+                </div>
+            </div>
+            <div class="topdiv">
+                <a class="topmenu" href="#about-me">About Me</a>
+                <a class="topmenu" href="#skills">Skills</a>
+                <a class="topmenu" href="#projects">Projects</a>
+                <a class="topmenu" href="#recommendations">Recommendations</a>
+                <a class="topmenu" href="#contact">Contact</a>
+            </div>
+        </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+        <div>
+            <img src="https://scontent-waw2-1.xx.fbcdn.net/v/t39.30808-6/460156873_1436854943636938_4372367788380278622_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=5WICzFD4rKoQ7kNvgH_8bcy&_nc_oc=AdhodOSHd95gU09eXB-tDGN8CtrJDI_PcLCb9UTcqjm8Z1tkTtNDrAYNVWqfDB3OJRQ&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=AzT5zl8q8VieEtR1buEAW3L&oh=00_AYAZhQVeFaSQCsL3GI3OXoUNzbCU7BXWKHtXJcmjgAoA1w&oe=67B93DAA" class="profile_image" alt="Profile GIF">
+        </div>
+        <div>
+            <h1>Hi, I'm Marcel Szeluga! <img src="html_finalprojimages/waving-hand.png" width="60px" alt="Waving Hand"></h1>
+            <p>
+                I study Computer Science at the University of Warmia and Mazury in Olsztyn. 
+                I like to take on new challenges because thanks to them I can develop. 
+                I love traveling and my dream is to work remotely for an American corporation and live in Thailand.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="all_skills">
+            <div class="skill">
+                <img src="html_finalprojimages/html5.png" alt="HTML Icon">
+                <h6>HTML</h6>
+                <p>1 year experience</p>
+            </div>  
+            <div class="skill">
+                <img src="html_finalprojimages/js.jpeg" alt="JavaScript Icon">
+                <h6>JavaScript</h6>
+                <p>1 year experience</p>
+            </div>  
+            <div class="skill">
+                <img src="https://skillforge.com/wp-content/uploads/2021/01/sql-querying.jpg" alt="SQL Icon">
+                <h6>SQL</h6>
+                <p>2 years experience</p>
+            </div>  
+            <div class="skill">
+                <img src="https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_512.png" alt="GitHub Icon">
+                <h6>GitHub</h6>
+                <p>3 years experience</p>
+            </div>  
+            <div class="skill">
+                <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java Icon">
+                <h6>Java</h6>
+                <p>3 years experience</p>
+            </div>  
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Business Website</h3>
+                <ul>
+                    <li>I created a website for a local business, developed it, and promoted it.</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="project-card">
+                <h3>Funny Virus</h3>
+                <ul>
+                    <li>I created a funny computer virus that, when downloaded, made the entire screen fill with flying kittens.</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="project-card">
+                <h3>Database</h3>
+                <ul>
+                    <li>I created a database for a company, optimizing data storage and improving workflow efficiency.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+        <h2>Recommendations</h2>
+        <div class="all_recommendations" id="all_recommendations">
+            <div class="recommendation">
+                <span>&#8220;</span>
+                Marcel is a very quick learner and quickly grasps key concepts of Web development. 
+                He has a great attitude & is an excellent team player. 
+                He has a curious mind and asks the right questions. 
+                He takes initiative within a team and has the potential to lead.
+                <span>&#8221;</span>
+            </div>
+            <div class="recommendation">
+                <span>&#8220;</span>
+                Working with Marcel has been an awesome experience. 
+                He is highly knowledgeable and always goes the extra step to make sure everything is right. 
+                For any future projects that need his expertise, I would definitely want to work with him again.
+                <span>&#8221;</span>
+            </div>
+            <div class="recommendation">
+                <span>&#8220;</span>
+                I had worked along with Marcel during the initial phase of our venture which needed Web development. 
+                He is a committed resource who has in-depth knowledge about the domain. 
+                He will be an asset for any organization!
+                <span>&#8221;</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+        <div class="flex_center">
+            <fieldset>
+                <legend class="introduction">Leave a Recommendation</legend>          
+                <input type="text" id="name_input" placeholder="Name (Optional)"> <br>
+                <textarea id="new_recommendation" cols="50" rows="5" placeholder="Message"></textarea>
+                <div class="flex_center">
+                    <button id="recommend_btn">Submit</button>
+                </div>
+            </fieldset>
+        </div>
+    </section>
+
+    <!-- Popup Message -->
+    <div class="popup" id="popup">
+        <img src="html_finalprojimages/checkmark--outline.svg"/>
+        <h3>Recommendation added successfully!</h3>
+        <button onclick="showPopup(false)">OK</button>
+    </div>
+    
+
+    <div class="iconbutton">
+        <a href="#home">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </a>
+      </div>
+      
+
+</body>
+</html>
